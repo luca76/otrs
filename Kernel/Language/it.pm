@@ -537,7 +537,7 @@ sub Data {
         'Priority updated!' => 'Priorità aggiornata!',
         'Signature added!' => 'Firma aggiunta!',
         'Signature updated!' => 'Firma aggiornata!',
-        'SLA' => 'SLA',
+        'SLA' => 'SLA (Urgenza)',
         'Service Level Agreement' => 'Accordo sul livello di servizio',
         'Service Level Agreements' => 'Accordi sul livello di servizio',
         'Service' => 'Servizio',
@@ -1714,7 +1714,7 @@ sub Data {
         'Timeline view in ticket zoom' => '',
         'DynamicField ContactWithData' => '',
         'DynamicField Database' => '',
-        'SLA Selection Dialog' => 'Finestra di selezione SLA',
+        'SLA Selection Dialog' => 'Finestra di scelta della SLA (urgenza)',
         'Ticket Attachment View' => 'Vista Allegati Ticket',
         'The %s skin' => 'Il tema %s',
 
@@ -2226,9 +2226,9 @@ sub Data {
         'Change Agent Relations for Role' => 'Cambia relazioni di operatore per il ruolo',
 
         # Template: AdminSLA
-        'SLA Management' => 'Gestione SLA',
-        'Add SLA' => 'Aggiungi SLA',
-        'Edit SLA' => 'Modifica SLA',
+        'SLA Management' => 'Gestione delle SLA (urgenze)',
+        'Add SLA' => 'Aggiungi una SLA (urgenza)',
+        'Edit SLA' => 'Modifica una SLA (urgenza)',
         'Please write only numbers!' => 'Usa solo numeri!',
 
         # Template: AdminSMIME
@@ -3029,7 +3029,7 @@ sub Data {
         'Open link' => '',
 
         # Template: CustomerTicketMessage
-        'Service level agreement' => 'SLA',
+        'Service level agreement' => 'SLA (urgenza)',
 
         # Template: CustomerTicketOverview
         'Welcome!' => 'Benvenuto!',
@@ -3921,7 +3921,7 @@ sub Data {
         'Escalation Solution Time Stopped' => '',
         'Escalation Response Time In Effect' => '',
         'Escalation Response Time Stopped' => '',
-        'SLA Updated' => 'SLA aggiornato',
+        'SLA Updated' => 'SLA (urgenza) aggiornata',
         'Queue Updated' => 'Coda aggiornata',
         'External Chat' => 'Chat esterna',
         'Queue Changed' => '',
@@ -4725,7 +4725,7 @@ Thanks for your help!
         'Allows customers to change the ticket priority in the customer interface.' =>
             'Permette ai clienti di cambiare la priorità dei ticket nell\'interfaccia cliente.',
         'Allows customers to set the ticket SLA in the customer interface.' =>
-            'Permette ai clienti di impostare la SLA dei ticket nell\'interfaccia cliente.',
+            'Permette ai clienti di impostare la SLA (l\'urgenza) dei ticket nell\'interfaccia cliente.',
         'Allows customers to set the ticket priority in the customer interface.' =>
             'Permette ai clienti di impostare la priorità dei ticket nell\'interfaccia cliente.',
         'Allows customers to set the ticket queue in the customer interface. If this is set to \'No\', QueueDefault should be configured.' =>
@@ -4739,7 +4739,7 @@ Thanks for your help!
         'Allows defining new types for ticket (if ticket type feature is enabled).' =>
             'Permette di definire nuovi tipi di ticket (se è abilitata la funzione ticket type)',
         'Allows defining services and SLAs for tickets (e. g. email, desktop, network, ...), and escalation attributes for SLAs (if ticket service/SLA feature is enabled).' =>
-            'Permette di definire servizi e SLA per i ticket (e.g. email, desktop, network, ...), e attributi di scalo per gli SLA (se è abilitata la funzione servizio/SLA)',
+            'Permette di definire servizi e SLA (urgenze) per i ticket (e.g. email, desktop, network, ...), e attributi di scalo per gli SLA (se è abilitata la funzione servizio/SLA)',
         'Allows extended search conditions in ticket search of the agent interface. With this feature you can search e. g. ticket title with this kind of conditions like "(*key1*&&*key2*)" or "(*key1*||*key2*)".' =>
             '',
         'Allows extended search conditions in ticket search of the customer interface. With this feature you can search e. g. ticket title with this kind of conditions like "(*key1*&&*key2*)" or "(*key1*||*key2*)".' =>
@@ -4881,7 +4881,7 @@ Thanks for your help!
             '',
         'Converts HTML mails into text messages.' => 'Converte la posta in HTML in Interazioni di testo.',
         'Create New process ticket.' => '',
-        'Create and manage Service Level Agreements (SLAs).' => 'Crea e gestisce gli SLA',
+        'Create and manage Service Level Agreements (SLAs).' => 'Crea e gestisce gli SLA (urgenze)',
         'Create and manage agents.' => 'Crea e gestisce gli operatori.',
         'Create and manage attachments.' => 'Crea e gestisce gli allegati',
         'Create and manage customer users.' => 'Crea e gestisce gli utenti cliente',
@@ -6442,8 +6442,8 @@ Thanks for your help!
             '',
         'Set this to yes if you trust in all your public and private pgp keys, even if they are not certified with a trusted signature.' =>
             '',
-        'Sets if SLA must be selected by the agent.' => 'Imposta se SLA deve essere selezionato dall\'operatore.',
-        'Sets if SLA must be selected by the customer.' => 'Imposta se SLA deve essere selezionato dal cliente.',
+        'Sets if SLA must be selected by the agent.' => 'Imposta se SLA (urgenza) deve essere selezionato dall\'operatore.',
+        'Sets if SLA must be selected by the customer.' => 'Imposta se SLA (urgenza) deve essere selezionato dal cliente.',
         'Sets if note must be filled in by the agent. Can be overwritten by Ticket::Frontend::NeedAccountedTime.' =>
             '',
         'Sets if service must be selected by the agent.' => 'Imposta se il servizio deve essere selezionato dall\'operatore.',
@@ -7050,7 +7050,7 @@ Thanks for your help!
         'Unlocked ticket.' => 'Ticket sbloccato.',
         'Update Ticket "Seen" flag if every article got seen or a new Article got created.' =>
             '',
-        'Updated SLA to %s (ID=%s).' => 'SLA aggiornato a %s (ID=%s).',
+        'Updated SLA to %s (ID=%s).' => 'SLA (urgenza) aggiornato a %s (ID=%s).',
         'Updated Service to %s (ID=%s).' => 'Servizio aggiornato a %s (ID=%s).',
         'Updated Type to %s (ID=%s).' => 'Tipo aggiornato a %s (ID=%s).',
         'Updated: %s' => 'Aggiornato: %s',
